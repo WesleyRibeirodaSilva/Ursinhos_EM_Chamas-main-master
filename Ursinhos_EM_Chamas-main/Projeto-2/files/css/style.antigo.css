@@ -1,0 +1,933 @@
+@charset "UTH-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Kreon:wght@400;500&family=Paytone+One&display=swap');
+
+
+/* ____________________________Configurações Gerais da Pagina________________________ */
+body {
+  background-color: rgb(52, 50, 50);
+}
+
+img {
+  border-radius: 10px;
+}
+
+p {
+  font-family: 'Kreon', serif;
+}
+
+h1,
+h2 {
+  font-family: 'Acme', sans-serif;
+}
+
+h3 {
+  font-family: 'Acme', sans-serif;
+  font-size: 1em;
+}
+
+nav {
+  font-family: 'Paytone One', sans-serif;
+  font-size: 1.1em;
+}
+
+h6 {
+  display: none;
+}
+
+/* _____________________________________Nav Wesley________________________________ */
+.dropdown-menu :hover {
+  background-color: rgb(129, 134, 129);
+}
+
+.nav-bi {
+  font-size: 2em;
+  transition: .4s;
+  color: #b5b5b5;
+}
+
+.nav-bi:hover {
+  font-size: 2em;
+  color: #ffffff;
+  transition: .4s;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #b5b5b5;
+  transition: .3s;
+}
+
+.banner-image {
+  height: 200px;
+  background-image: url('../img/banner/nav5.jpg');
+  background-size: cover;
+}
+
+/*_________________________________ Home Wesley________________________________ */
+#carousel-home {
+  max-width: 1024px;
+  max-height: 522px;
+  background-size: cover;
+}
+
+.cor-gradiente {
+  padding: 10px;
+
+  background-image: linear-gradient(to right, rgb(56, 56, 56), rgb(152, 152, 152));
+  box-shadow: 3px 3px 6px 3px rgb(41, 41, 41);
+}
+
+.cor-gradiente h2 {
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.cor-gradiente a:hover {
+  color: rgb(139, 139, 139);
+}
+
+.cor-e-espacamento {
+  background-color: rgb(52, 50, 50);
+  max-width: 1000px;
+  margin: auto;
+  border-radius: 0px 0px 20px 20px;
+  display: block;
+}
+
+.cor-e-espacamento a {
+  color: rgb(255, 255, 255);
+}
+
+.cor-e-espacamento a:hover {
+  color: rgb(139, 139, 139);
+}
+
+.cor-e-espacamento img {
+  max-width: 100%;
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  object-position: bottom left;
+  margin: 10px;
+  color: #fff;
+}
+.cor-branca h3 a {
+  color: #f0f0f0;
+  font-size: 1.5em;
+  text-shadow: 2px 2px #070707;
+}
+.cor-branca h3 a:hover {
+  color: #8d8f8f;
+  font-size: 1.5em;
+  text-shadow: none;
+}
+.cor-branca {
+  overflow: hidden;
+}
+
+.cor-branca img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.home-img:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.propaganda-carousel a {
+  color: #fff;
+  font-size: 2.5em;
+  transition: .6s;
+}
+
+.propaganda-carousel a:hover {
+  color: #fff;
+  font-size: 3em;
+  transition: .6s;
+}
+
+.linda-carousel a {
+  background-color: #ffffff8e;
+  color: #fa00bb;
+  font-weight: bolder;
+  font-size: 3em;
+  transition: .6s;
+}
+
+.linda-carousel a:hover {
+  background-color: transparent;
+  color: #fa00bb;
+  font-weight: bolder;
+  font-size: 4em;
+  transition: .6s;
+}
+
+.irmandade-carousel {
+  background-color: #f2000055;
+  transition: .6s;
+}
+
+.irmandade-carousel:hover {
+  background-color: transparent;
+
+}
+
+.irmandade-carousel a {
+  color: #f0f0f0;
+  font-weight: bolder;
+  font-size: 3em;
+  transition: .6s;
+}
+
+.irmandade-carousel a:hover {
+  color: #fefefe;
+  font-weight: bolder;
+  font-size: 4em;
+  transition: .6s;
+}
+
+/* -----------------------------------Correção Erick--------------------------------*/
+.noticia_img img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: bottom left;
+  margin: 10px;
+}
+
+.centarlizar-p {
+  margin: auto;
+}
+
+.secondary-color {
+  color: rgb(202, 202, 202);
+}
+
+.cor-branca {
+  background-color: rgb(214, 214, 214);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+
+/* _________________________________Series e TV Wesley______________________________ */
+/* ____________________________________Geral e Ação_________________________________ */
+.series-tv-main {
+  max-width: 1200px;
+}
+
+.ratio {
+  max-width: 560px;
+  max-height: 315px;
+  display: block;
+  margin: auto;
+  box-shadow: 1px 1px 6px 1px rgba(253, 253, 253, 0.422);
+  padding: 20px;
+}
+
+.video-ratio {
+  background-color: #b02121;
+  padding: 0px 30px 0px 30px;
+}
+
+.series-tv-h3 {
+  color: #fff;
+  font-size: 1.3em;
+  padding: 10px;
+  padding-left: 50px;
+  background-image: linear-gradient(to right, rgb(56, 56, 56), rgb(152, 152, 152));
+  box-shadow: 3px 3px 6px 3px rgb(41, 41, 41);
+}
+
+.series-sec p {
+  text-align: justify;
+  font-size: 1.3em;
+  margin: 0 auto;
+  color: rgb(182, 182, 182);
+}
+
+.series-sec-img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: #b02121;
+  overflow: hidden;
+}
+
+.sec-img img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.sec-img:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* _________________________________Series e TV Wesley______________________________ */
+/* ___________________________________Ação Irmandade________________________________ */
+.video-ratio-series-irmandade {
+  background-color: #100f0f;
+  padding: 0px 30px 0px 30px;
+}
+
+/* _________________________________Series e TV Wesley______________________________ */
+/* _______________________________________Romance___________________________________ */
+.video-ratio-rom {
+  background-color: #f7c0b9;
+  padding: 0px 30px 0px 30px;
+}
+
+/* _________________________________Series e TV Wesley______________________________ */
+/* _______________________________________Comédia___________________________________ */
+.video-ratio-com {
+  background-color: #9d5a1a;
+  padding: 0px 30px 0px 30px;
+}
+
+/* _________________________________Series e TV Wesley______________________________ */
+/* _______________________________________Novela____________________________________ */
+.video-ratio-nov {
+  background-color: #353d90;
+  padding: 0px 30px 0px 30px;
+}
+
+/* _________________________________Series e TV Wesley______________________________ */
+/* _____________________________________Talk-Show___________________________________ */
+.video-ratio-talk {
+  background-color: #191a2c;
+  padding: 0px 30px 0px 30px;
+}
+
+/* _________________________________Series e TV Wesley______________________________ */
+/* ____________________________________Reality-Show_________________________________ */
+.video-ratio-reality {
+  background-color: #ef7c2c;
+  padding: 0px 30px 0px 30px;
+}
+
+/* ___________________________________Filmes Wesley_________________________________ */
+/* __________________________________Filme Carandiru________________________________ */
+.video-ratio-filme-carandiru {
+  background-color: #010101;
+  padding: 0px 30px 0px 30px;
+}
+
+/* ___________________________________Filmes Wesley_________________________________ */
+/* ____________________________Filme O Auto da Compadecida__________________________ */
+.video-ratio-filme-conpadecida {
+  background-color: #465da7;
+  padding: 0px 30px 0px 30px;
+}
+
+/* ___________________________________Filmes Wesley_________________________________ */
+/* _______________________________Filme Cinderela Baiana____________________________ */
+.video-ratio-filme-cinderela {
+  background-color: #6f9ec8;
+  padding: 0px 30px 0px 30px;
+}
+
+/* ___________________________________Filmes Wesley_________________________________ */
+/* _______________________________Filme Os Trombadinhas ____________________________ */
+.video-ratio-filme-trombadinha {
+  background-color: #c6c5ab;
+  padding: 0px 30px 0px 30px;
+}
+
+/* ____________________________Informações Geeks Wesley_______________________________ */
+
+.informacao-geeks h1 {
+  text-align: center;
+  font-size: 1.6em;
+}
+
+.informacao-geeks p {
+  text-align: justify;
+  font-size: 1em;
+}
+
+.secao-1 {
+  margin: 20px;
+  background-color: #86a5e9;
+  box-shadow: 3px 3px 5px #040404;
+}
+
+.secao-1 a {
+  color: #b02121;
+  font-weight: bolder;
+}
+
+.secao-1 a:hover {
+  color: #333333;
+  font-weight: bolder;
+  transition: .5s;
+}
+
+.secao-2 {
+  margin: 20px;
+  background-color: #191919;
+  box-shadow: 3px 3px 5px #040404;
+  color: #ebebeb;
+}
+
+.secao-2 a {
+  color: #b02121;
+  font-weight: bolder;
+}
+
+.secao-2 a:hover {
+  color: #919191;
+  font-weight: bolder;
+  transition: .5s;
+}
+
+.secao-3 {
+  margin: 20px;
+  background-color: #ecdd6d;
+  box-shadow: 3px 3px 5px #040404;
+  color: #494949;
+}
+
+.secao-3 a {
+  color: #b02121;
+  font-weight: bolder;
+}
+
+.secao-3 a:hover {
+  color: #ffffff;
+  font-weight: bolder;
+  transition: .5s;
+}
+
+.secao-4 {
+  margin: 20px;
+  background-color: #cc8e57;
+  box-shadow: 3px 3px 5px #040404;
+  color: #2a1010;
+}
+
+.secao-4 a {
+  color: #b02121;
+  font-weight: bolder;
+}
+
+.secao-4 a:hover {
+  color: #2c2c2c;
+  font-weight: bolder;
+  transition: .5s;
+}
+
+
+.secao-5 {
+  margin: 20px;
+  background-color: #dfad7c;
+  box-shadow: 3px 3px 5px #040404;
+  color: #2a1010;
+}
+
+.secao-5 a {
+  color: #b02121;
+  font-weight: bolder;
+}
+
+.secao-5 a:hover {
+  color: #2c2c2c;
+  font-weight: bolder;
+  transition: .5s;
+}
+
+.secao-6 {
+  margin: 20px;
+  background-color: #ebe4de;
+  box-shadow: 3px 3px 5px #040404;
+  color: #2a1010;
+}
+
+.secao-6 a {
+  color: #b02121;
+  font-weight: bolder;
+}
+
+.secao-6 a:hover {
+  color: #2c2c2c;
+  font-weight: bolder;
+  transition: .5s;
+}
+
+/* <___________________Caracteristicas do Footer Erick_______________________________> */
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+}
+
+footer nav ul li {
+  list-style: none;
+  display: block;
+  padding: 10px 0px;
+}
+
+footer nav ul li a {
+  text-align: center;
+  font-size: 1.3rem;
+  color: white;
+  text-decoration: none;
+}
+
+footer nav ul li a:hover {
+  color: yellow;
+}
+
+.color_fonte {
+  color: yellow;
+}
+
+footer h3 {
+  color: white;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+#logo_footer {
+  margin-left: 30%;
+  margin-top: 10px;
+}
+
+#color {
+  background-color: #313030;
+}
+
+small {
+  /* Cop& right */
+  color: white;
+  text-align: center;
+  background-color: #666060;
+}
+
+.social_icons {
+  list-style: none;
+}
+
+.social_icons li {
+  padding: 10px;
+}
+
+.social_icons li a {
+  position: relative;
+  display: block;
+  width: 35px;
+  height: 35px;
+  color: #555;
+  background: #fff;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  box-shadow: -20px 20px 10px rgb(0 0 0 /50%);
+  transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0, 0);
+  border-radius: 10px;
+}
+
+/* _______________________Começo da página Geek Erick_____________________ */
+/* menu da pagina */
+
+.menu_geek_hqs {
+  background-color: #d9d9d9;
+  align-items: center;
+  margin: 10px;
+}
+
+.menu_geek_hqs ul li {
+  list-style: none;
+  display: inline-block;
+  height: 50px;
+  padding: 5px 6%;
+}
+
+.menu_geek_hqs li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+
+
+/* ____________________________Pagina galeria Erick___________________________ */
+.galeria_grid {
+  margin: 15px 10px;
+}
+
+/* _______________________Pagina de normas de uso Erick________________________ */
+.text_pg_normas p {
+  color: white;
+  margin: 15px 30px;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+
+/* ______________________Pagina quem somos Erick_________________________ */
+.quem-somos {
+  margin: 30px;
+  color: white;
+  background-color: #b2b2b2;
+  width: 90%;
+  margin: 15px auto;
+  height: auto;
+  border-radius: 10px;
+}
+
+.quem-somos img {
+  margin: 50px 0px;
+  height: 400px;
+  width: auto;
+  border-style: solid;
+  box-shadow: #01010131 -5px 5px;
+}
+
+.quem-somos section {
+  padding: 10px;
+  margin: 40px 0px;
+  background-color: #666060;
+  border-radius: 10px;
+}
+
+.quem-somos section p {
+  margin: 5px;
+  font-size: 1.3rem;
+}
+
+/* -------------------------Fim da pagina quem Somos-----------------------> */
+#rubens img {
+  width: 200px;
+  height: 300px;
+}
+
+.back {
+  background: #4845a2;
+  
+  margin: auto;
+  background-image: url("../img/noticias/fate.webp");
+  background-repeat: no-repeat;
+  background-position-x: left;
+}
+#beco_artista{
+  background: #476806;
+  margin:10px auto ;
+}
+
+#beco_artista img {
+  height: 250px;
+  width: 250px;
+  
+}
+#fate {
+  background: #100f0f;
+  margin: auto;
+}
+#fate h2{
+  margin: 10px;
+}
+#fate img{
+width: 370px;
+height: 200px;
+border-radius: 10px;
+}
+
+.noticia {
+  margin: 10px 0px;
+}
+@media(max-width:576px) {
+  input{
+  
+    width: 300px;
+  }
+}
+
+@media (min-width: 576px )and (max-width: 768px){
+  input{
+    
+    width: 400px;
+  }
+}
+@media (min-width: 768px) {
+input{
+  
+  width: 580px;
+}
+  footer nav ul li a {
+    padding: 5px 50px;
+    font-size: 1.1rem;
+  }
+
+  #logo_footer {
+    margin-left: 38%;
+    margin-top: 20%;
+  }
+
+  .social_icons {
+    list-style: none;
+    margin-top: 20%;
+    margin-left: 43%;
+  }
+
+  .social_icons li a {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  /* ______________________Pagina Geek Erick_______________________ */
+  .menu_geek_hqs nav {
+    margin-top: 10px;
+  }
+
+  .menu_geek_hqs ul li {
+    padding: 10px 3%;
+  }
+
+  .menu_geek_hqs nav ul li a {
+    padding: 15px 30px;
+  }
+
+
+  /* menu pagina geek e hqs */
+  .menu_geek_hqs li a {
+    padding: 10px 12%;
+    font-size: 1rem;
+  }
+
+  .noticia {
+    margin-left: 5px;
+  }
+
+  /* ________________________Pagina normas de uso Erick___________________ */
+  .text_pg_normas p {
+    font-size: 1rem;
+    margin: 20px 80px;
+  }
+
+  /* _________________________Pagina Quem Somos Erick______________________ */
+  .quem-somos {
+    height: auto;
+  }
+
+  .quem-somos section {
+    margin: 20px 0px;
+  }
+
+  .quem-somos section p {
+    margin: 10px;
+    font-size: 1rem;
+  }
+}
+/* ----------------------------------Erick------------------------------------> */
+@media (min-width: 992px) {
+input{
+  width: 270px;
+}
+  /* menu footer  */
+  footer nav ul li a {
+    padding: 5px 30px;
+    font-size: 1rem;
+  }
+
+  /* fim menu footer */
+  /*  Footer icones  */
+  #logo_footer {
+    margin-left: 30%;
+    margin-top: 20%;
+    padding-top: 15px;
+  }
+
+  .social_icons {
+    list-style: none;
+    margin-top: 20%;
+    margin-left: 45%;
+  }
+
+  .social_icons li a {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+  }
+
+  .social_icons li a::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: -5px;
+    height: 50%;
+    background-color: #b2b2b2;
+    transition: 0.5s;
+    transform: rotate(0deg);
+    border-radius: 10px;
+  }
+
+  .social_icons li a::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: -10px;
+    height: 20px;
+    width: 20px;
+    background: #e5e5e509;
+    transition: 0.5s;
+    transform: rotate(0deg);
+    border-radius: 5px;
+  }
+
+  .social_icons li a:hover {
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
+    box-shadow: -50px 50px 50px rgb(0, 0, 0, 0.5);
+  }
+
+  .social_icons li:hover .bi {
+    color: #fff;
+  }
+
+  .social_icons li:hover:nth-child(1) a {
+    background-color: #3b5999;
+  }
+
+  .social_icons li:hover:nth-child(1) a::before {
+    background-color: #2f477a;
+  }
+
+  .social_icons li:hover:nth-child(1) a::after {
+    background-color: #4e69a3;
+  }
+
+  .social_icons li:hover:nth-child(2) a {
+    background-color: #e95950;
+  }
+
+  .social_icons li:hover:nth-child(2) a::before {
+    background-color: #0c0b0c;
+  }
+
+  .social_icons li:hover:nth-child(2) a::after {
+    background-color: #e2725b;
+  }
+
+  .social_icons li:hover:nth-child(3) a {
+    background-color: #4d71be;
+  }
+
+  .social_icons li:hover:nth-child(3) a::before {
+    background-color: #375492;
+  }
+
+  .social_icons li:hover:nth-child(3) a::after {
+    background-color: #4263a8;
+  }
+
+  /* ______________________Começo da Paginas geek Erick______________________*/
+  .menu_geek_hqs {
+    display: none;
+  }
+
+  /* _______________________Pagina Normas de Uso Erick______________________ */
+  .text_pg_normas p {
+    font-size: 0.9rem;
+    margin: 20px 110px;
+  }
+
+  /* _________________________Pagina Quem Somos Italo_________________________ */
+  .quem-somos {
+    height: auto;
+   
+  }
+
+  .quem-somos section {
+    margin: 40px 0px;
+  }
+
+  .quem-somos section p {
+    margin: 10px;
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 1200px) {
+  input{
+    padding: 5px;
+    width: 340px;
+  }
+}
+/* <__________________________________Home Wesley___________________________________> */
+@media (max-width: 990px) {
+  #navbarNav {
+    background-color: #212529e1;
+    border-radius: 20px;
+  }
+}
+@media (max-width: 1200px) {
+
+  .cor-gradiente {
+    margin-top: 0px;
+  }
+
+  .cor-e-espacamento {
+    border-radius: 0px;
+  }
+
+  .cor-branca {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+}
+
+/* <_______________________________Quem Somos Italo_____________________________> */
+.teste p {
+  border-radius: 100px;
+  background-color: white;
+}
+
+form {
+  margin-left: 50px;
+  margin-top: 50px;
+  padding-left: 30px;
+  background-color: rgba(0, 0, 0, 0.514);
+  border-radius: 12px
+}
+
+
+
+
+fieldset {
+  width: 300px;
+
+
+}
+
+section .teste {
+  margin: 25px;
+}
+
+.teste {
+  margin-top: 50px;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+
