@@ -1,7 +1,12 @@
 @charset "UTH-8";
 
+
+
+/*----------------------Home Wesley------------------------*/
+
+
 .home-body {
-  background-color: rgb(60, 58, 58);
+  background-color: rgb(52, 50, 50);
 }
 
 .img-propaganda {
@@ -9,24 +14,70 @@
   color: #000000; /* cor do texto preta */
   padding: 20px;
 }
-
 .img-propaganda img {
   max-width: 70%;
   height: auto;
 }
-
-.img-custom {
-  width: 300px;
-  height: 200px;
-  object-fit: cover;
-  object-position: center;
-}
-
 .img-propaganda figcaption {
   font-size: 1.2rem;
 }
 
-.cor-branca {
-  background-color: #ffffff;
+.h1-gradiente {
   padding: 10px;
+  padding-left: 50px;
+  background-image: linear-gradient(to right, rgb(56, 56, 56), rgb(152, 152, 152));
+  box-shadow: 3px 3px 6px 3px rgb(41, 41, 41);
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.cor-branca {
+  overflow: hidden;
+  background-color: rgb(214, 214, 214);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.img-sec img {
+  max-width: 100%;
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  object-position: bottom left;
+  margin: 20px;
+  color: #fff;
+}
+
+.img-sec img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.img-sec:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.cor-branca h1 a {
+  color: #f0f0f0;
+  font-size: 1.5em;
+  text-shadow: 2px 2px #070707;
+}
+.cor-branca h1 a:hover {
+  color: #8d8f8f;
+  font-size: 1.5em;
+  text-shadow: none;
+}
+
+
+
+
+.centarlizar-p a {
+  margin: auto;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
 }
