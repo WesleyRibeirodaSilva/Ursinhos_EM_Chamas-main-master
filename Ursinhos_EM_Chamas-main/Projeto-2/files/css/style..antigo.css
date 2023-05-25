@@ -68,6 +68,19 @@ h6 {
 }
 
 /*_________________________________ Home Wesley________________________________ */
+.img-propaganda {
+  background-color: #cacaca; /* cor de fundo branca */
+  color: #000000; /* cor do texto preta */
+  padding: 20px;
+}
+.img-propaganda img {
+  max-width: 70%;
+  height: auto;
+}
+.img-propaganda figcaption {
+  font-size: 1.2rem;
+}
+
 #carousel-home {
   max-width: 1024px;
   max-height: 522px;
@@ -115,16 +128,12 @@ h6 {
   margin: 10px;
   color: #fff;
 }
-.cor-branca h3 a {
+.cor-branca h1 a {
   color: #f0f0f0;
   font-size: 1.5em;
   text-shadow: 2px 2px #070707;
 }
-.cor-branca h3 a:hover {
-  color: #8d8f8f;
-  font-size: 1.5em;
-  text-shadow: none;
-}
+
 .cor-branca {
   overflow: hidden;
 }
