@@ -26,14 +26,13 @@
     <main class="container">
       <?php include 'header.php' ?>
       <!-- Imagem no Lugar do Carrosel -->
-      <div class="col-12">
-        <section class="img-propaganda">
+        <section class="row col-12 img-propaganda">
           <figure class="text-center">
             <img
               class="mx-auto rounded shadow-lg img-fluid"
               src="files/img/carrossel/netflix-banner-1024-522.jpg"
               alt="Exemplo de uma imagem"/>
-            <figcaption>
+            <figcaption class="font-figcaption">
               Relaxe e aproveite! A Netflix tem tudo o que você precisa para uma
               maratona de séries ou um filme tranquilo em casa. Não perca mais
               tempo procurando, escolha a Netflix e mergulhe no mundo do
@@ -41,53 +40,40 @@
             </figcaption>
           </figure>
         </section>
-      </div>
 
       <!-- Sessões 01 -->
-      <section class="cor-branca mt-4 mb-4">
-        <div class="row">
-          <div class="col-12 cor-gradiente">
-            <h1>Geeks - HQs</h1>
-          </div>
-        </div>
-        <div class="cor-e-espacamento row">
-          <article class="col-md-6 mb-4 d-flex">
-            <figure class="home-img">
-              <a href="informacao_geeks.php"
-                ><img
-                  src="files/img/secoes/home-geeks/hometurma-da-monica-jovem.jpg"
-                  class="img-fluid rounded"
-                  alt="..."
-              /></a>
-            </figure>
-            <div class="centarlizar-p d-flex flex-column justify-content-center">
-              <h3>
+      <section class="cor-branca">
+        <h1 class="row col-12 cor-gradiente">Geeks - HQs</h1>
+
+            <article class="row cor-e-espacamento">
+              <figure class="col-12 col-sm-6 col-lg-3 home-img">
+                <a href="informacao_geeks.php"
+                  ><img
+                    src="files/img/secoes/home-geeks/hometurma-da-monica-jovem.jpg"
+                    class="img-fluid rounded"
+                    alt="..."
+                /></a>
+              </figure>
+              <div class="col-12 col-sm-6 col-lg-3 centarlizar-p d-flex flex-column justify-content-center">
                 <a class="nav-link" href="informacao_geeks.php">Turma da Mônica Jovem</a>
-              </h3>
-              <p class="secondary-color">Realizada em: 2011</p>
-            </div>
-          </article>
-          <article class="col-md-6 mb-4 d-flex">
-            <figure class="home-img">
-              <a href="informacao_geeks.php"
-                ><img
-                  src="files/img/secoes/home-geeks/home-achados-e-perdidos.jpg"
-                  class="img-fluid rounded"
-                  alt="..."
-              /></a>
-            </figure>
-            <div
-              class="centarlizar-p d-flex flex-column justify-content-center">
-              <h3>
+                <p class="secondary-color">Realizada em: 2011</p>
+              </div>
+              <figure class="col-12 col-sm-6 col-lg-3 home-img">
+                <a href="informacao_geeks.php"
+                  ><img
+                    src="files/img/secoes/home-geeks/home-achados-e-perdidos.jpg"
+                    class="img-fluid rounded"
+                    alt="..."
+                /></a>
+              </figure>
+              <div class="col-12 col-sm-6 col-lg-3 centarlizar-p d-flex flex-column justify-content-center">
                 <a class="nav-link" href="informacao_geeks.php">Achados e Perdidos</a>
-              </h3>
-              <p class="secondary-color">Realizada em: 2011</p>
-            </div>
-          </article>
-        </div>
-        <div class="cor-e-espacamento row">
-          <article class="col-md-6 mb-4 d-flex">
-            <figure class="home-img">
+                <p class="secondary-color">Realizada em: 2011</p>
+              </div>
+            </article>
+
+            <article class="cor-e-espacamento row">
+            <figure class="col-12 col-sm-6 col-lg-3 home-img">
               <a href="informacao_geeks.php"
                 ><img
                   src="files/img/secoes/home-geeks/home-adormecida-cem-anos-para-sempre.jpg"
@@ -95,16 +81,11 @@
                   alt="..."
               /></a>
             </figure>
-            <div
-              class="centarlizar-p d-flex flex-column justify-content-center">
-              <h3>
-                <a class="nav-link" href="informacao_geeks.php">Adormecida: Cem Anos Para Sempre</a>
-              </h3>
+            <div class="col-12 col-sm-6 col-lg-3 centarlizar-p d-flex flex-column justify-content-center">
+              <a class="nav-link" href="informacao_geeks.php">Adormecida: Cem Anos Para Sempre</a>
               <p class="secondary-color">Realizada em: 2012</p>
             </div>
-          </article>
-          <article class="col-md-6 mb-4 d-flex">
-            <figure class="home-img">
+            <figure class="col-12 col-sm-6 col-lg-3 home-img">
               <a href="informacao_geeks.php"
                 ><img
                   src="files/img/secoes/home-geeks/home-castanha-do-para.jpg"
@@ -112,26 +93,19 @@
                   alt="..."
               /></a>
             </figure>
-            <div class="centarlizar-p d-flex flex-column justify-content-center">
-              <h3>
-                <a class="nav-link" href="informacao_geeks.php">Castanha do Pará</a>
-              </h3>
+            <div class="col-12 col-sm-6 col-lg-3 centarlizar-p d-flex flex-column justify-content-center">
+              <a class="nav-link" href="informacao_geeks.php">Castanha do Pará</a>
               <p class="secondary-color">Realizada em: 2016</p>
             </div>
           </article>
-        </div>
       </section>
 
       <!-- Sessões 02 -->
-      <section class="cor-branca mt-4 mb-4">
-        <div class="row">
-          <div class="col-12 cor-gradiente">
-            <h1>Séries e TV</h1>
-          </div>
-        </div>
-        <div class="cor-e-espacamento row">
-          <article class="col-md-6 mb-4 d-flex">
-            <figure class="home-img">
+      <section class="cor-branca">
+        <h1 class="row col-12 cor-gradiente">Séries e TV</h1>
+
+        <article class="row cor-e-espacamento">
+          <figure class="col-12 col-sm-6 col-lg-3 home-img">
               <a href="serie_1.php"
                 ><img
                   src="files/img/secoes/home-geeks/sintonia.jpg"
@@ -139,15 +113,11 @@
                   alt="..."
               /></a>
             </figure>
-            <div class="d-flex flex-column justify-content-center">
-              <h3>
-                <a class="nav-link" href="serie_1.php">Sintonia</a>
-              </h3>
+            <div class="col-12 col-sm-6 col-lg-3 centarlizar-p d-flex flex-column justify-content-center">
+              <a class="nav-link" href="serie_1.php">Sintonia</a>
               <p class="secondary-color">Realizada em: 2019</p>
             </div>
-          </article>
-          <article class="col-md-6 mb-4 d-flex">
-            <figure class="home-img">
+            <figure class="col-12 col-sm-6 col-lg-3 home-img">
               <a href="serie_3.php"
                 ><img
                   src="files/img/secoes/home-geeks/coisa-mais-linda.jpg"
@@ -155,17 +125,13 @@
                   alt="..."
               /></a>
             </figure>
-            <div class="d-flex flex-column justify-content-center">
-              <h3>
-                <a class="nav-link" href="serie_3.php">Coisa Mais Linda</a>
-              </h3>
+            <div class="col-12 col-sm-6 col-lg-3 centarlizar-p d-flex flex-column justify-content-center">
+              <a class="nav-link" href="serie_3.php">Coisa Mais Linda</a>
               <p class="secondary-color">Realizada em: 2019</p>
             </div>
           </article>
-        </div>
-        <div class="cor-e-espacamento row">
-          <article class="col-md-6 mb-4 d-flex">
-            <figure class="home-img">
+          <article class="row cor-e-espacamento">
+            <figure class="col-12 col-sm-6 col-lg-3 home-img">
               <a href="tv_1.php"
                 ><img
                   src="files/img/secoes/home-geeks/salve-se-quem-puder.jpg"
@@ -173,15 +139,11 @@
                   alt="..."
               /></a>
             </figure>
-            <div class="d-flex flex-column justify-content-center">
-              <h3>
-                <a class="nav-link" href="tv_1.php">Salve-se Quem Puder</a>
-              </h3>
+            <div class="col-12 col-sm-6 col-lg-3 centarlizar-p d-flex flex-column justify-content-center">
+              <a class="nav-link" href="tv_1.php">Salve-se Quem Puder</a>
               <p class="secondary-color">Realizada em: 2020</p>
             </div>
-          </article>
-          <article class="col-md-6 mb-4 d-flex">
-            <figure class="home-img">
+            <figure class="col-12 col-sm-6 col-lg-3 home-img">
               <a href="tv_3.php"
                 ><img
                   src="files/img/secoes/home-geeks/danilo-gentili.jpg"
@@ -189,28 +151,19 @@
                   alt="..."
               /></a>
             </figure>
-            <div class="d-flex flex-column justify-content-center">
-              <h3>
-                <a class="nav-link" href="tv_3.php"
-                  >The Noite Com Danilo Gentili</a
-                >
-              </h3>
+            <div class="col-12 col-sm-6 col-lg-3 centarlizar-p d-flex flex-column justify-content-center">
+              <a class="nav-link" href="tv_3.php">The Noite Com Danilo Gentili</a>
               <p class="secondary-color">Realizado em: 2014</p>
             </div>
           </article>
-        </div>
       </section>
 
       <!-- Sessões 03 -->
-      <section class="cor-branca mt-4 mb-4">
-        <div class="row">
-          <div class="col-12 cor-gradiente">
-            <h1>Filmes</h1>
-          </div>
-        </div>
-        <div class="cor-e-espacamento row">
-          <article class="col-md-6 mb-4 d-flex">
-            <figure class="home-img">
+      <section class="cor-branca">
+        <h1 class="row col-12 cor-gradiente">Filmes</h1>
+
+        <article class="row cor-e-espacamento">
+          <figure class="col-12 col-sm-6 col-lg-3 home-img">
               <a href="filmes_1.php"
                 ><img
                   src="files/img/secoes/home-geeks/carandiru.jpg"
@@ -218,13 +171,12 @@
                   alt="..."
               /></a>
             </figure>
-            <div class="d-flex flex-column justify-content-center">
-              <h3><a class="nav-link" href="filmes_1.php">Carandiru</a></h3>
+            <div class="col-12 col-sm-6 col-lg-3 centarlizar-p d-flex flex-column justify-content-center">
+              <a class="nav-link" href="filmes_1.php">Carandiru</a>
               <p class="secondary-color">Realizada em: 2003</p>
             </div>
-          </article>
-          <article class="col-md-6 mb-4 d-flex">
-            <figure class="home-img">
+
+            <figure class="col-12 col-sm-6 col-lg-3 home-img">
               <a href="filmes_1.php"
                 ><img
                   src="files/img/secoes/home-geeks/o-auto-da-compadecida.jpg"
@@ -232,19 +184,14 @@
                   alt="..."
               /></a>
             </figure>
-            <div class="d-flex flex-column justify-content-center">
-              <h3>
-                <a class="nav-link" href="filmes_1.php"
-                  >O Auto da Compadecida</a
-                >
-              </h3>
+            <div class="col-12 col-sm-6 col-lg-3 centarlizar-p d-flex flex-column justify-content-center">
+              <a class="nav-link" href="filmes_1.php">O Auto da Compadecida</a>
               <p class="secondary-color">Realizada em: 2000</p>
             </div>
           </article>
-        </div>
-        <div class="cor-e-espacamento row">
-          <article class="col-md-6 mb-4 d-flex">
-            <figure class="home-img">
+
+          <article class="row cor-e-espacamento">
+            <figure class="col-12 col-sm-6 col-lg-3 home-img">
               <a href="filmes_2.php"
                 ><img
                   src="files/img/secoes/home-geeks/cinderela-baiana.jpg"
@@ -252,15 +199,12 @@
                   alt="..."
               /></a>
             </figure>
-            <div class="d-flex flex-column justify-content-center">
-              <h3>
-                <a class="nav-link" href="filmes_2.php">Cinderela Baiana</a>
-              </h3>
+            <div class="col-12 col-sm-6 col-lg-3 centarlizar-p d-flex flex-column justify-content-center">
+              <a class="nav-link" href="filmes_2.php">Cinderela Baiana</a>
               <p class="secondary-color">Realizada em: 1998</p>
             </div>
-          </article>
-          <article class="col-md-6 mb-4 d-flex">
-            <figure class="home-img">
+
+            <figure class="col-12 col-sm-6 col-lg-3 home-img">
               <a href="filmes_2.php"
                 ><img
                   src="files/img/secoes/home-geeks/os-trombadinhas.jpg"
@@ -268,26 +212,19 @@
                   alt="..."
               /></a>
             </figure>
-            <div class="d-flex flex-column justify-content-center">
-              <h3>
-                <a class="nav-link" href="filmes_2.php">Os Trombadinhas</a>
-              </h3>
+            <div class="col-12 col-sm-6 col-lg-3 centarlizar-p d-flex flex-column justify-content-center">
+              <a class="nav-link" href="filmes_2.php">Os Trombadinhas</a>
               <p class="secondary-color">Realizada em: 1979</p>
             </div>
           </article>
-        </div>
       </section>
 
       <!-- Sessões 04 -->
-      <section class="cor-branca mt-4 mb-4">
-        <div class="row">
-          <div class="col-12 cor-gradiente">
-            <h1>Notícias</h1>
-          </div>
-        </div>
-        <div class="cor-e-espacamento row">
-          <article class="col-md-6 mb-4 d-flex">
-            <figure class="home-img">
+      <section class="cor-branca">
+        <h1 class="row col-12 cor-gradiente">Notícias</h1>
+
+        <article class="row cor-e-espacamento">
+          <figure class="col-12 col-sm-6 col-lg-3 home-img">
               <a href="noticias_1.php"
                 ><img
                   src="files/img/secoes/home-geeks/fatecon.jpg"
@@ -295,13 +232,12 @@
                   alt="..."
               /></a>
             </figure>
-            <div class="d-flex flex-column justify-content-center">
-              <h3><a class="nav-link" href="noticias_1.php">FATECon HQs</a></h3>
+            <div class="col-12 col-sm-6 col-lg-3 centarlizar-p d-flex flex-column justify-content-center">
+              <a class="nav-link" href="noticias_1.php">FATECon HQs</a>
               <p class="secondary-color">Realizada em: 2022</p>
             </div>
-          </article>
-          <article class="col-md-6 mb-4 d-flex">
-            <figure class="home-img">
+
+            <figure class="col-12 col-sm-6 col-lg-3 home-img">
               <a href="noticias_4.php"
                 ><img
                   src="files/img/geeks-hqs/ccxp.jpg"
@@ -309,17 +245,14 @@
                   alt="..."
               /></a>
             </figure>
-            <div class="d-flex flex-column justify-content-center">
-              <h3>
-                <a class="nav-link" href="noticias_4.php">CCXP é um sucesso</a>
-              </h3>
+            <div class="col-12 col-sm-6 col-lg-3 centarlizar-p d-flex flex-column justify-content-center">
+              <a class="nav-link" href="noticias_4.php">CCXP é um sucesso</a>
               <p class="secondary-color">Realizada em: 2022</p>
             </div>
           </article>
-        </div>
-        <div class="cor-e-espacamento row">
-          <article class="col-md-6 mb-4 d-flex">
-            <figure class="home-img">
+
+          <article class="row cor-e-espacamento">
+            <figure class="col-12 col-sm-6 col-lg-3 home-img">
               <a href="noticias_3.php"
                 ><img
                   src="files/img/geeks-hqs/topgunmaverick,jpg.jpg"
@@ -327,17 +260,12 @@
                   alt="..."
               /></a>
             </figure>
-            <div class="d-flex flex-column justify-content-center">
-              <h3>
-                <a class="nav-link" href="noticias_3.php"
-                  >Top Gun: Maverick, melhor filme de 2022</a
-                >
-              </h3>
+            <div class="col-12 col-sm-6 col-lg-3 centarlizar-p d-flex flex-column justify-content-center">
+              <a class="nav-link" href="noticias_3.php">Top Gun: Maverick, melhor filme de 2022</a>
               <p class="secondary-color">Realizada em: 2022</p>
             </div>
-          </article>
-          <article class="col-md-6 mb-4 d-flex">
-            <figure class="home-img">
+
+            <figure class="col-12 col-sm-6 col-lg-3 home-img">
               <a href="noticias_5.php"
                 ><img
                   src="files/img/secoes/home-geeks/geek.jpg"
@@ -345,14 +273,11 @@
                   alt="..."
               /></a>
             </figure>
-            <div class="d-flex flex-column justify-content-center">
-              <h3>
-                <a class="nav-link" href="noticias_5.php">Dia do orgulho geek, Super Mario Bros</a>
-              </h3>
+            <div class="col-12 col-sm-6 col-lg-3 centarlizar-p d-flex flex-column justify-content-center">
+              <a class="nav-link" href="noticias_5.php">Dia do orgulho geek, Super Mario Bros</a>
               <p class="secondary-color">Realizada em: 1985</p>
             </div>
           </article>
-        </div>
       </section>
 
       <?php include 'footer.php' ?>

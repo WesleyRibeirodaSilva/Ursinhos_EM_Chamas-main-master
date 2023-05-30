@@ -1,41 +1,52 @@
 @charset "UTH-8";
 
-
-
-/*----------------------Home Wesley------------------------*/
-
-
+/*---------------------------------Geral------------------------------*/
 body {
   background-color: rgb(52, 50, 50);
 }
 
+
+/*----------------------------- Home -- Wesley ----------------------- */
+
+
+/*Propaganda da Home -- Wesley --*/
+
 .img-propaganda {
-  background-color: #cacaca; /* cor de fundo branca */
-  color: #000000; /* cor do texto preta */
   padding: 20px;
 }
 .img-propaganda img {
-  max-width: 70%;
+  max-width: 60%;
   height: auto;
 }
-.img-propaganda figcaption {
-  font-size: 1.2rem;
+.font-figcaption{
+  color: #fff;
+  padding: 30px;
+}
+@media (max-width: 576px) {/* Estilos para telas pequenas */
+  .font-figcaption {
+    font-size: 1em;
+  }
+}
+@media (min-width: 576px) and (max-width: 992px) {/* Estilos para telas médias */
+  .font-figcaption {
+    font-size: 1.2em;
+  }
+}
+@media (min-width: 992px) {/* Estilos para telas grandes */
+  .font-figcaption {
+    font-size: 1.4em;
+  }
 }
 
+
+/*--Home / Section 1-2-3-4 -- Wesley --*/
+
 .cor-branca {
-  background-color: rgb(214, 214, 214);
+  background-color: rgb(207, 207, 207);
   padding-bottom: 20px;
   padding-top: 20px;
   text-align: center;
   overflow: hidden;
-}
-.cor-branca a {
-  font-size: 1em;
-  text-shadow: 2px 2px #070707;
-}
-.cor-branca a:hover {
-  font-size: 1em;
-  text-shadow: none;
 }
 .cor-branca img {
   max-width: 500%;
@@ -43,6 +54,7 @@ body {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
+
 .home-img:hover img {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
@@ -51,15 +63,12 @@ body {
 
 .cor-gradiente {
   padding: 10px;
-  background-image: linear-gradient(to right, rgb(56, 56, 56), rgb(152, 152, 152));
-  box-shadow: 3px 3px 6px 3px rgb(41, 41, 41);
-}
-
-.cor-gradiente h1 {
   font-size: 1.2em;
   color: #fff;
   text-align: left;
-  margin-left: 30px;
+  padding-left: 30px;
+  background-image: linear-gradient(to right, rgb(56, 56, 56), rgb(152, 152, 152));
+  box-shadow: 3px 3px 6px 3px rgb(41, 41, 41);
 }
 
 .cor-e-espacamento {
@@ -67,17 +76,13 @@ body {
   max-width: 1000px;
   margin: auto;
 }
-
 .cor-e-espacamento a,p {
   color: #ffffff;
-
 }
-
 .cor-e-espacamento a:hover {
   color: #b5b5b5;
   transition: .3s;
 }
-
 .cor-e-espacamento img {
   max-width: 100%;
   width: 250px;
