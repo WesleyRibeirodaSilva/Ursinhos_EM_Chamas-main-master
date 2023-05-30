@@ -48,6 +48,11 @@ body {
   text-align: center;
   overflow: hidden;
 }
+@media (max-width: 1199px) {/* Estilos para telas grandes */
+  .cor-branca {
+    background-color: transparent;
+  }
+}
 .cor-branca img {
   max-width: 500%;
   -moz-transition: all 0.3s;
