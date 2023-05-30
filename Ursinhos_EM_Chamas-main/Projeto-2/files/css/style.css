@@ -76,13 +76,10 @@ body {
   max-width: 1000px;
   margin: auto;
 }
-.cor-e-espacamento a,p {
+.cor-e-espacamento p {
   color: #ffffff;
 }
-.cor-e-espacamento a:hover {
-  color: #b5b5b5;
-  transition: .3s;
-}
+
 .cor-e-espacamento img {
   max-width: 100%;
   width: 250px;
@@ -92,3 +89,33 @@ body {
   margin: 10px;
   color: #fff;
 }
+
+/* Home -- Links das Sections 1,2,3,4 -- Wesley --*/
+/* Estilo básico do link */
+.home-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-size: 0.2s ease-in-out;
+}
+/* Estilo quando o link estiver em foco */
+.home-link:focus {
+  outline: 2px solid #d30505;
+  outline-offset: 2px;
+}
+/* Estilo quando o link estiver em foco, mas não ativo (tecla de espaço pressionada) */
+.home-link:focus:not(:active) {
+  background-color: #201f1f;
+  transition: 0.2s;
+}
+/* Estilo quando o link estiver em foco e ativo (tecla de espaço pressionada) */
+.home-link:focus:active {
+  background-color: #ffffff;
+}
+/* Estilo quando o link estiver sendo navegado pelo teclado */
+.home-link:hover:not(:focus) {
+  background-color: #201f1f;
+  outline: 2px solid #fe0000;
+  color: #fff;
+}
+
