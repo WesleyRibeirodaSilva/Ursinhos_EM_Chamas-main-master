@@ -18,28 +18,30 @@
   <body>
     <?php include 'header.php' ?>
 
-    <main>
-      <section class="01">
-        <h1>Coisa Mais Linda</h1>
-        <aside>
-          <iframe src="https://www.youtube.com/embed/8GK9NFv-6Bk"></iframe>
+    <main class="container">
+      <section class="section-pg">
+        <h1 class="col-12 cor-gradiente">Coisa Mais Linda</h1>
+        <aside class="video-ratio-rom p-2 mb-5">
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/8GK9NFv-6Bk" title="Trailer do Filme Coisa mais Linda"></iframe>
+          </div>
         </aside>
-        <article>
-          <figure>
+        <article class="row">
+          <figure class="col-11 col-md-6 col-lg-4 p-2 m-auto">
             <img
               class="img-fluid rounded-5 m-auto d-block"
               src="files/img/serie-tv/romance/coisa-mais-linda.jpg"
-              alt=""
+              alt="Foto com as Atris do filme coisa mais linda"
             />
           </figure>
-          <figure>
+          <figure class="col-11 col-md-6 col-lg-4 p-2 m-auto">
             <img
               class="img-fluid rounded-0 m-auto d-block"
               src="files/img/serie-tv/romance/coisa-mais-linda-logo.jpg"
-              alt=""
+              alt="Logo do filme coisa mais linda"
             />
           </figure>
-          <p>
+          <p class="col-11 col-md-12 col-lg-4 p-2 m-auto">
             Rio de Janeiro, anos 50. A conservadora e submissa Maria Luiza
             (Maria Casadevall) chega na cidade em busca de seu marido que
             desapareceu. Enquanto o procura, ela faz novas amizades e transforma
@@ -47,56 +49,56 @@
             Linda".
           </p>
         </article>
-        <aside>
-          <figure>
+        <aside class="row series-sec-img">
+          <figure class="sec-img col-12 col-md-6 col-lg-3 m-auto d-block p-2">
             <img
               class="img-fluid rounded-5 m-auto d-block p-2"
               src="files/img/serie-tv/romance/maria-casadevall.jpg"
-              alt=""
+              alt="Atris Maria Casadevall"
             />
           </figure>
-          <figure>
+          <figure class="sec-img col-12 col-md-6 col-lg-3 m-auto d-block p-2">
             <img
               class="img-fluid rounded-5 m-auto d-block p-2"
               src="files/img/serie-tv/romance/mel-lisboa.jpg"
-              alt=""
+              alt="Atris Mel Lisboa"
             />
           </figure>
-          <figure>
+          <figure class="sec-img col-12 col-md-6 col-lg-3 m-auto d-block p-2">
             <img
               class="img-fluid rounded-5 m-auto d-block p-2"
               src="files/img/serie-tv/romance/pathy-de-jesus.jpg"
-              alt=""
+              alt="Atris Pathy de Jesus"
             />
           </figure>
-          <figure>
+          <figure class="sec-img col-12 col-md-6 col-lg-3 m-auto d-block p-2">
             <img
               class="img-fluid rounded-5 m-auto d-block p-2"
               src="files/img/serie-tv/romance/fernanda-vasconcellos.jpg"
-              alt=""
+              alt="Atris Fernanda Vasconcellos"
             />
           </figure>
         </aside>
-        <article>
-          <p>
+        <article class="row">
+          <p class="col-11 col-md-12 col-lg-4 p-2 m-auto">
             Coisa Mais Linda foi cancelada pela Netflix? A resposta oficial, até
             o momento, é não. Mas, nesta terça-feira (20), um boato ganhou força
             nas redes sociais, apontando que a gigante do streaming havia dado
             fim à série brasileira. A verdade é que a produção da terceira
             temporada ainda está indefinida
           </p>
-          <figure>
+          <figure class="col-11 col-md-6 col-lg-4 p-2 m-auto">
             <img
               class="img-fluid rounded-5 m-auto d-block"
               src="files/img/serie-tv/romance/netflix-logo.jpg"
-              alt=""
+              alt="Logo da NetFlix"
             />
           </figure>
-          <figure>
+          <figure class="col-11 col-md-6 col-lg-4 p-2 m-auto">
             <img
               class="img-fluid rounded-0 m-auto d-block"
               src="files/img/serie-tv/romance/giuliana-heather.jpg"
-              alt=""
+              alt="Produtora Giuliana Heather"
             />
           </figure>
         </article>
@@ -107,15 +109,15 @@
 
     <!-- Fim da Home -->
     <script>
-    var nav = document.querySelector('nav');
-    window.addEventListener('scroll', function () {
-      if (window.pageYOffset > 100) {
-        nav.classList.add('bg-dark', 'shadow')
-      } else {
-        nav.classList.remove('bg-dark', 'shadow');
-      }
-    })
-  </script>
+      var nav = document.querySelector('nav');
+      window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 100) {
+          nav.classList.add('bg-dark', 'shadow')
+        } else {
+          nav.classList.remove('bg-dark', 'shadow');
+        }
+      })
+    </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"

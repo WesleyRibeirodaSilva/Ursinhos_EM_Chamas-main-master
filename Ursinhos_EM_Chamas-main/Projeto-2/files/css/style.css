@@ -1,4 +1,8 @@
-@charset "UTH-8";
+@charset "UTF-8";
+
+/*-----------------Nav  Wesley-----------------------*/
+
+
 
 /*---------------------------------Geral------------------------------*/
 body {
@@ -177,4 +181,74 @@ body {
   font-size: 1.3em;
   margin: 0 auto;
   color: rgb(221, 221, 221);
+}
+
+/* _________________________________Series e TV Wesley______________________________ */
+/* ___________________________________Ação Irmandade________________________________ */
+.video-ratio-series-irmandade {
+  background-color: #100f0f;
+  padding: 0px 30px 0px 30px;
+}
+
+/* _________________________________Series e TV Wesley______________________________ */
+/* _______________________________________Romance___________________________________ */
+.video-ratio-rom {
+  background-color: #f7c0b9;
+  padding: 0px 30px 0px 30px;
+}
+
+/* _________________________________Series e TV Wesley______________________________ */
+/* _______________________________________Comédia___________________________________ */
+.video-ratio-com {
+  background-color: #9d5a1a;
+  padding: 0px 30px 0px 30px;
+}
+
+/* _________________________________Series e TV Wesley______________________________ */
+/* _______________________________________Novela____________________________________ */
+.video-ratio-nov {
+  background-color: #353d90;
+  padding: 0px 30px 0px 30px;
+}
+
+/* _________________________________Series e TV Wesley______________________________ */
+/* _____________________________________Talk-Show___________________________________ */
+.video-ratio-talk {
+  background-color: #191a2c;
+  padding: 0px 30px 0px 30px;
+}
+
+/* _________________________________Series e TV Wesley______________________________ */
+/* ____________________________________Reality-Show_________________________________ */
+.video-ratio-reality {
+  background-color: #ef7c2c;
+  padding: 0px 30px 0px 30px;
+}
+
+/* ___________________________________Filmes Wesley_________________________________ */
+/* __________________________________Filme Carandiru________________________________ */
+.video-ratio-filme-carandiru {
+  background-color: #010101;
+  padding: 0px 30px 0px 30px;
+}
+
+/* ___________________________________Filmes Wesley_________________________________ */
+/* ____________________________Filme O Auto da Compadecida__________________________ */
+.video-ratio-filme-conpadecida {
+  background-color: #465da7;
+  padding: 0px 30px 0px 30px;
+}
+
+/* ___________________________________Filmes Wesley_________________________________ */
+/* _______________________________Filme Cinderela Baiana____________________________ */
+.video-ratio-filme-cinderela {
+  background-color: #6f9ec8;
+  padding: 0px 30px 0px 30px;
+}
+
+/* ___________________________________Filmes Wesley_________________________________ */
+/* _______________________________Filme Os Trombadinhas ____________________________ */
+.video-ratio-filme-trombadinha {
+  background-color: #c6c5ab;
+  padding: 0px 30px 0px 30px;
 }

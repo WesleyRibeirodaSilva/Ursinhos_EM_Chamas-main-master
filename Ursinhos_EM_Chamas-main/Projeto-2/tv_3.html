@@ -18,65 +18,66 @@
   <body>
     <?php include 'header.php' ?>
 
-    <main>
-      <section class="01">
-        <h1>The Noite com Danilo Gentili</h1>
-        <aside>
-          <iframe src="https://www.youtube.com/embed/zHLqdOAmpyc"></iframe>
+    <main class="container">
+      <section class="section-pg">
+        <h1 class="col-12 cor-gradiente">The Noite com Danilo Gentili</h1>
+        <aside class="video-ratio-talk p-2 mb-5">
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/zHLqdOAmpyc" title="Treiler do Talk Show com O Danilo Gentili"></iframe></div>
         </aside>
-        <article>
-          <figure>
+        <article class="row">
+          <figure class="col-11 col-md-6 col-lg-4 p-2 m-auto">
             <img
               class="img-fluid rounded-5 m-auto d-block"
               src="files/img/serie-tv/talk-show/thenoite_gentili.jpg"
-              alt=""
+              alt="Foto do estudio de gravação no SBT com Danilo Gentili"
             />
           </figure>
-          <figure>
+          <figure class="col-11 col-md-6 col-lg-4 p-2 m-auto">
             <img
               class="img-fluid rounded-0 m-auto d-block"
               src="files/img/serie-tv/talk-show/logotipo-the-noite-com-danilo-gentili-logo-sbt-2014.jpg"
-              alt=""
+              alt="Logo do Talk Show The Noite com Danilo Gentili"
             />
           </figure>
-          <p>
+          <p class="col-11 col-md-12 col-lg-4 p-2 m-auto">
             The Noite com Danilo Gentili é um programa de televisão brasileiro
             produzido e exibido originalmente pelo SBT que é apresentado pelo
             comediante stand-up Danilo Gentili.
           </p>
         </article>
-        <aside>
-          <figure>
+        <aside class="row series-sec-img">
+          <figure class="sec-img col-12 col-md-6 col-lg-3 m-auto d-block p-2">
             <img
               class="img-fluid rounded-5 m-auto d-block p-2"
               src="files/img/serie-tv/talk-show/danilo-gentili-retrato.jpg"
-              alt=""
+              alt="Apresentador Danilo Gentili"
             />
           </figure>
-          <figure>
+          <figure class="sec-img col-12 col-md-6 col-lg-3 m-auto d-block p-2">
             <img
               class="img-fluid rounded-5 m-auto d-block p-2"
               src="files/img/serie-tv/talk-show/diguinho.jpg"
-              alt=""
+              alt="Apresentador Diguinho"
             />
           </figure>
-          <figure>
+          <figure class="sec-img col-12 col-md-6 col-lg-3 m-auto d-block p-2">
             <img
               class="img-fluid rounded-5 m-auto d-block p-2"
               src="files/img/serie-tv/talk-show/murilo-couto..jpg"
-              alt=""
+              alt="Apresentador Murilo Couto"
             />
           </figure>
-          <figure>
+          <figure class="sec-img col-12 col-md-6 col-lg-3 m-auto d-block p-2">
             <img
               class="img-fluid rounded-5 m-auto d-block p-2"
               src="files/img/serie-tv/talk-show/juliana.jpg"
-              alt=""
+              alt="Apresentadora Juliana"
             />
           </figure>
         </aside>
-        <article>
-          <p>
+        <article class="row">
+          <p class="col-11 col-md-12 col-lg-4 p-2 m-auto">
             O The Noite Com Danilo Gentili traz muitos entrevistados
             interessantes e alto índice de piadas por minuto, abordando os fatos
             mais (e menos) relevantes do dia. A atração também conta com Murilo
@@ -85,18 +86,18 @@
             Rigor e os comentários inteligentes são cortesia do vocalista Roger
             Moreira.
           </p>
-          <figure>
+          <figure class="col-11 col-md-6 col-lg-4 p-2 m-auto">
             <img
               class="img-fluid rounded-5 m-auto d-block"
               src="files/img/serie-tv/talk-show/sbt-logo.jpg"
-              alt=""
+              alt="Logo da TV SBT"
             />
           </figure>
-          <figure>
+          <figure class="col-11 col-md-6 col-lg-4 p-2 m-auto">
             <img
               class="img-fluid rounded-0 m-auto d-block"
               src="files/img/serie-tv/talk-show/danilo-produtor.jpg"
-              alt=""
+              alt="Apresentador e Produtor Danilo Gentili"
             />
           </figure>
         </article>
@@ -107,15 +108,15 @@
 
     <!-- Fim da Home -->
     <script>
-    var nav = document.querySelector('nav');
-    window.addEventListener('scroll', function () {
-      if (window.pageYOffset > 100) {
-        nav.classList.add('bg-dark', 'shadow')
-      } else {
-        nav.classList.remove('bg-dark', 'shadow');
-      }
-    })
-  </script>
+      var nav = document.querySelector('nav');
+      window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 100) {
+          nav.classList.add('bg-dark', 'shadow')
+        } else {
+          nav.classList.remove('bg-dark', 'shadow');
+        }
+      })
+    </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
