@@ -1,14 +1,32 @@
 @charset "UTF-8";
 
-/*-----------------Nav  Wesley-----------------------*/
-
 
 
 /*---------------------------------Geral------------------------------*/
 body {
   background-color: rgb(52, 50, 50);
 }
+img {
+  border-radius: 10px;
+}
 
+p {
+  font-family: 'Kreon', serif;
+}
+
+h1,
+h2 {
+  font-family: 'Acme', sans-serif;
+}
+
+h3 {
+  font-family: 'Acme', sans-serif;
+  font-size: 1em;
+}
+
+nav {
+  font-size: 1.1em;
+}
 
 /*----------------------------- Home -- Wesley ----------------------- */
 
@@ -132,7 +150,6 @@ body {
 
 
 /*----Series e TV ---------Wesley---------------*/
-
 .section-pg {
   max-width: 1200px;
   margin: 0 auto;
@@ -251,4 +268,125 @@ body {
 .video-ratio-filme-trombadinha {
   background-color: #c6c5ab;
   padding: 0px 30px 0px 30px;
+}
+
+/* ____________________________Informações Geeks Wesley_______________________________ */
+
+.informacao-geeks h1 {
+  text-align: center;
+  font-size: 1.6em;
+}
+
+.informacao-geeks p {
+  text-align: justify;
+  font-size: 1em;
+}
+
+.secao-1 {
+  margin: 20px;
+  background-color: #86a5e9;
+  box-shadow: 3px 3px 5px #040404;
+}
+
+.secao-1 a {
+  display: flex;
+  color: #b02121;
+  font-weight: bolder;
+}
+
+.secao-1 a:hover {
+  color: #333333;
+  font-weight: bolder;
+  transition: .5s;
+}
+
+.secao-2 {
+  margin: 20px;
+  background-color: #191919;
+  box-shadow: 3px 3px 5px #040404;
+  color: #ebebeb;
+}
+
+.secao-2 a {
+  color: #b02121;
+  font-weight: bolder;
+}
+
+.secao-2 a:hover {
+  color: #919191;
+  font-weight: bolder;
+  transition: .5s;
+}
+
+.secao-3 {
+  margin: 20px;
+  background-color: #ecdd6d;
+  box-shadow: 3px 3px 5px #040404;
+  color: #494949;
+}
+
+.secao-3 a {
+  color: #b02121;
+  font-weight: bolder;
+}
+
+.secao-3 a:hover {
+  color: #ffffff;
+  font-weight: bolder;
+  transition: .5s;
+}
+
+.secao-4 {
+  margin: 20px;
+  background-color: #cc8e57;
+  box-shadow: 3px 3px 5px #040404;
+  color: #2a1010;
+}
+
+.secao-4 a {
+  color: #b02121;
+  font-weight: bolder;
+}
+
+.secao-4 a:hover {
+  color: #2c2c2c;
+  font-weight: bolder;
+  transition: .5s;
+}
+
+
+.secao-5 {
+  margin: 20px;
+  background-color: #dfad7c;
+  box-shadow: 3px 3px 5px #040404;
+  color: #2a1010;
+}
+
+.secao-5 a {
+  color: #b02121;
+  font-weight: bolder;
+}
+
+.secao-5 a:hover {
+  color: #2c2c2c;
+  font-weight: bolder;
+  transition: .5s;
+}
+
+.secao-6 {
+  margin: 20px;
+  background-color: #ebe4de;
+  box-shadow: 3px 3px 5px #040404;
+  color: #2a1010;
+}
+
+.secao-6 a {
+  color: #b02121;
+  font-weight: bolder;
+}
+
+.secao-6 a:hover {
+  color: #2c2c2c;
+  font-weight: bolder;
+  transition: .5s;
 }

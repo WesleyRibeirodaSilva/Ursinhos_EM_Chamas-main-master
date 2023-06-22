@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Kreon:wght@400;500&family=Paytone+One&display=swap');
 
 
 /* ____________________________Configurações Gerais da Pagina________________________ */
@@ -26,7 +25,6 @@ h3 {
 }
 
 nav {
-  font-family: 'Paytone One', sans-serif;
   font-size: 1.1em;
 }
 
